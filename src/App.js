@@ -1,9 +1,14 @@
 import './App.scss';
 import Navbar from './components/Navbar/Navbar';
+import TourList from './components/TourList';
 
 function App() {
   return (
-    <Navbar />
+    <main>
+      <Navbar />
+      <TourList />
+    </main>
+    
   );
 }
 
